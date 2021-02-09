@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width:100%;
+    background: silver;
+    overflow: hidden;
+}
+.header-left{
+    width: 15%;
+    background: green;
+    float: left;
+    margin-top: 25px;
+    border: 2px ridge aqua;
+    border-radius: 5px;
+}
+.header-left h3{
+    font-family: cursive;
+    text-align: center;
+}
+.header-middle{
+    width:30%;
+    background: red;
+    color: white;
+    float: left;
+    margin-left: 200px;
+       border: 2px ridge aqua;
+    border-radius: 5px;
+    padding: 5px;
+}
+.header-middle h2{
+    font-family: monospace
+}
+/*end header part*/
+/*star form part*/
+.form{
+    background: blue;
+}
+form{
+    margin-left: 200px;
+    background: silver;
+    margin-right: 200px;
+}
+form lavel{
+    color:fuchsia;
+}
+form input{
+    max-width: 100px;
+    border: 2px solid green;
+    border-radius: 5px;
+        padding:5px;
+    font-size: 15px;
+    background: pink;
+    color: white;
+}
+
+form input[type="submit"]
+{
+    padding:7px;
+    max-width: 100px;
+    background:black;
+}
+
+
+
+
+
+
+/*stop form part*/
+
+/*start navigation part*/
+.menu{
+    background:black;
+    min-height: 38px;
+   
+}
+.menu li{
+    float:left;
+    list-style-type:none;
+    position: relative;
+}
+.menu li a{
+    color:white;
+    padding:10px 12px;
+    display:inline-block;
+    text-decoration:none;
+}
+.menu li a:hover{
+    background: green;
+}
+.menu li .join-click{
+    background:brown;
+}
+
+
+.menu .catagory-option {
+    background: white;
+    box-shadow: 0px 2px 2px 2px silver;
+    position: absolute;
+    left: -99999px;
+}
+.menu .catagory-option a{
+color:black;
+}
+.menu .catagory-option li{
+    float: none;
+   
+}
+.catagory:hover .catagory-option{
+    left:0;
+}
+.menu .catagory-option li a{
+ min-width: 100px;
+}
+.blog-option{
+    background: white;
+    box-shadow: 0px 2px 2px 2px silver;
+            left:-999999px;
+    position:absolute;
+     z-index: 20;
+}
+.blog{
+    position: relative;
+}
+.blog-option li{
+    float:none;
+
+}
+.blog-option li a{
+    color:black;
+    min-width: 100px;
+}
+.blog:hover .blog-option{
+    left:0;
+}
+
+
+/*start about us area*/
+.about {
+    margin-top: 300px;
+}
+.about p{
+    background-color: lightcyan
+}
+.about h2{
+    background: blue;
+}
+.about button{
+        background: black;
+    color: white;
+    padding: 4px;
+    cursor: pointer;
+    border: red 3px solid;
+}
+/*start footer area area*/
+.footer{
+    background: black;
+    color:white;
+    overflow: hidden;
+}
+.footer a{
+    text-decoration: none;
+    color:aqua
+}
+.footer a:hover{
+    text-decoration: underline;
+    color:blue;
+}
+.footer1{
+    float: left;
+    margin: 25px 0px 5px 50px;
+}
+.footer2{
+    float: left;
+    margin: 25px 0px 5px 270px;
+}
+.address{
+    float: right;
+    margin: 25px 15px 5px 270px;
+}
+
